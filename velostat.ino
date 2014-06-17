@@ -12,16 +12,14 @@ void setup() {
 }
 
 void loop() {
-  sensorValue = analogRead(analogInPin);
-  Serial.print("sensor = " );                 
+  sensorValue = analogRead(analogInPin);                
   Serial.println(sensorValue);
 
   if (sensorValue < 500){
-    Serial.println("leds triggered");
-    colorWipe(strip.Color(0,0,255), 60);
+    colorWipe(strip.Color(0,0,128), 60);
     colorWipe(strip.Color(0,0,0), 60);
   } else {
-    colorWipe(strip.Color(255,255,0), 0);
+    colorWipe(strip.Color(128,128,0), 0);
     colorWipe(strip.Color(0,0,0), 0);
   }
 }
