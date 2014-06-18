@@ -22,6 +22,7 @@ void loop() {
     colorWipe(strip.Color(128,128,0), 0);
     colorWipe(strip.Color(0,0,0), 0);
   }
+  delay(10);
 }
 
 void colorWipe(uint32_t c, uint8_t wait) {
