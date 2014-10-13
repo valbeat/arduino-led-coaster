@@ -1,2 +1,3 @@
-velostat sensor
-
+velostat sensor!
+===
+ベロスタットセンサーをArduinoで使う。
