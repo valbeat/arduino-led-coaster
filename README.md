@@ -1,3 +1,4 @@
 velostat sensor!
 ===
-ベロスタットセンサーをArduinoで使う。
+ベロスタットシートをArduinoで使う。  
+**シートを踏むとテープLEDが光るよ!!!**
