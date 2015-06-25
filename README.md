@@ -26,7 +26,7 @@ LED Coaster
 1. [Arduino](https://www.arduino.cc/en/Main/Software)のインストール  
 2. [Adafruitのライブラリ](https://github.com/adafruit/Adafruit_NeoPixel)をインストール  
 3. `git clone https://github.com/valbeat/velostat.git`    
-4. Arduinoを接続して pianoStep/arduino/pianoStep/pianoStep.ino を書き込む  
+4. Arduinoを接続して velostat.ino を書き込む  
 
 #デモ
 ![movie](movie.gif)
