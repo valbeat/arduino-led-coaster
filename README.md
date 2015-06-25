@@ -1,11 +1,11 @@
 LED Coaster
 ===
 #概要
-
+テープLEDと感圧シートを使った光るコースター
 # 開発環境
 ## PC
-+ mac osx 
-+ ARDUINO 1.6.5
++ Mac OSX Yosemite 
++ Arduino 1.6.5
 
 ## Arduino
 + Arduino Duemilanove
