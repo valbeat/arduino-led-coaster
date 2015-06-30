@@ -1,4 +1,6 @@
-#LED Coaster
+LED Coaster
+===
+![光る！コースター](./logo.png)
 ##概要
 テープLEDと感圧シートを使った光るコースター
 ## 開発環境
@@ -16,17 +18,17 @@
 導電糸：[Stainless Thin Conductive Thread](http://www.adafruit.com/products/640)
 
 ###テープLED
-そのうち追加
+好きな長さでカットする
 ###感圧シートと導電糸
-そのうち追加
+導電糸を感圧シートの両面にくっつける
 ###回路
-そのうち回路図を追加
+![回路図](./circuit/circuit.png)
 
 ###Arduino
-1. [Arduino](https://www.arduino.cc/en/Main/Software)のインストール  
+1. [Arduino](https://www.arduino.cc/en/Main/Software)をインストール  
 2. [Adafruitのライブラリ](https://github.com/adafruit/Adafruit_NeoPixel)をインストール  
 3. `git clone https://github.com/valbeat/velostat.git`    
-4. Arduinoを接続して velostat.ino を書き込む  
+4. Arduinoを接続して ledcoaster.ino を書き込む  
 
 ##デモ
 ![movie](movie.gif)
