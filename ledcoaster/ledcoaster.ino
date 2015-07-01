@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 const int analogInPin = 0;
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(10, 6, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(60, 6, NEO_GRB + NEO_KHZ800);
 int sensorValue = 0;
 
 void setup() {
@@ -15,7 +15,7 @@ void loop() {
   sensorValue = analogRead(analogInPin);                
   Serial.println(sensorValue);
 
-  if (sensorValue < 500){
+  if (sensorValue < 400){
     colorWipe(strip.Color(0,0,128), 60);
     colorWipe(strip.Color(0,0,0), 60);
   } else {
